@@ -1,0 +1,171 @@
+/* element selectors */
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+hr {
+  border: 7px dotted #bac7a7;
+  border-style: dotted none none;
+  width: 5%;
+}
+h1 {
+  color: #66bfbf;
+  font-family: 'IBM Plex Mono', cursive;
+  font-size: 4.5rem;
+}
+h2 {
+  color: #66bfbf;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 15px;
+  font-size: 2.5rem;
+}
+h3 {
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+th {
+  font-family: 'Montserrat';
+}
+td {
+  color: #40514e;
+}
+span {
+  text-decoration: underline;
+}
+li {
+  color: #40514e;
+}
+p {
+  color: #40514e;
+}
+a {
+  color: #11999e;
+  text-decoration: none;
+}
+table {
+  border-color: #11999e;
+  color: #11999e;
+  border-collapse: collapse;
+  padding: 40%;
+
+}
+/* class selectors */
+.top-container {
+  background-color: #e4fcf5;
+  padding-top: 50px;
+}
+.normal-font {
+  font-size: 1rem;
+}
+.mylinks {
+  padding-top: 50px;
+  background-color: #e4fcf5;
+  text-align: right;
+  font-family: 'Montserrat';
+  line-height: 2;
+}
+.link {
+   font-weight: 550;
+  margin: 0 20px;
+}
+.link:hover {
+  color:#40514e ;
+}
+.top-gear {
+  position: relative;
+  right: 450px;
+  bottom: 20px;
+}
+.bottom-gear1 {
+  position: relative;
+  left: 500px;
+  bottom: 100px;
+}
+.profile {
+  padding: 70px 50px 50px;
+}
+.about {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 2;
+}
+.edu {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #11999e;
+}
+.skills {
+  padding-top: 50px;
+}
+.skill-row {
+  width: 65%;
+  margin: 70px auto 80px;
+  line-height: 2;
+  text-align: left ;
+}
+.dance-img {
+  float: left;
+  margin: 8px 50px 12px 10px;
+  width: 15%;
+}
+.ngo-img {
+  float: right;
+  width: 15%;
+  margin: 8px 20px 8px 40px;
+}
+.da-img {
+  float: left;
+  margin: 8px 50px 12px 10px;
+  width: 15%;
+}
+.yb-img {
+  float: right;
+  width: 15%;
+  margin: 8px 20px 8px 40px;
+}
+.sc-img {
+  float: left;
+  margin: 8px 50px 12px 10px;
+  width: 18.5%;
+}
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 30px 50px 50px;
+}
+.footer-link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin: 0 20px;
+}
+.footer {
+  color: #eaf6f6;
+  margin-top: 40px;
+  font-size: 0.8rem;
+  font-family: sans-serif;
+}
+.contact-me {
+  padding: 40px;
+}
+.mail-me {
+  padding-top: 25px;
+}
+.contact-btn {
+  display: inline-block;
+  background-image: linear-gradient(#66bfbf, #11999e);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 40px auto 60px auto;
+  border-radius: 5px;
+}
+.contact-btn:hover {
+  background-image: linear-gradient(to top, #66bfbf, #11999e);
+}
+
+/* id selectors */
